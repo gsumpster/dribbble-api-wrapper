@@ -3,10 +3,14 @@ import rp from 'request-promise'
 import { DRIBBLE_ENDPOINT } from './constants'
 
 import Bucket from './buckets'
+import Projects from './projects'
+import Shots from './shots'
 
 const client = {
   token: '',
-  Bucket
+  Bucket,
+  Projects,
+  Shots
 }
 
 export function request (options) {
