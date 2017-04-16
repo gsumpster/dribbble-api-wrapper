@@ -5,12 +5,14 @@ import { DRIBBLE_ENDPOINT } from './constants'
 import Bucket from './buckets'
 import Projects from './projects'
 import Shots from './shots'
+import Teams from './teams'
 
 const client = {
   token: '',
   Bucket,
   Projects,
-  Shots
+  Shots,
+  Teams
 }
 
 export function request (options) {
